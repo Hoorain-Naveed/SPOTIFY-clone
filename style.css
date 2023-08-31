@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Bricolage+Grotesque';
+    color: antiquewhite;
+    height: 85px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    height: 65px;
+    align-items: center;
+}
+
+img {
+    width: 50px;
+    height: 40%;
+    margin-left: -60%;
+    margin-top: -18%;
+    color: aliceblue;
+    font-size: smaller;
+}
+
+.head {
+    font-weight: bolder;
+    margin-left: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -60%;
+    font-size: 1.3rem;
+}
+
+li {
+    padding: 2% 3%;
+    justify-content: center
+}
+
+nav ul li {
+    margin: 2px;
+    padding: 0 12px;
+    margin-left: 2%;
+}
+
+.bottom {
+    height: 100px;
+    /* margin-top: 5%; */
+    background-color: black;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+
+}
+
+.bottom.ion-icon {
+    display: flex;
+    color: aliceblue;
+    margin-top: 34px;
+
+
+}
+
+.icons .ion-icon {
+    color: aliceblue;
+    width: 20px;
+    flex-direction: column;
+}
+
+#progressbar {
+    width: 80%;
+    /* margin-top: -2%; */
+    align-items: center;
+    justify-content: center;
+margin-top: -3%;
+
+
+}
+.image-container {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .image {
+    max-width: 50px;
+    max-height: 50px;
+  }
+.play{
+    margin-left: 5px;
+}
+.container {
+
+    color: aliceblue;
+    height: 70vh;
+    width: 60%;
+    background-color: rgb(13, 14, 13);
+    justify-content: center;
+    align-items: center;
+    margin: 1% 20%;
+    border-radius: 13px;
+    margin-bottom: 2.3%;
+    padding: 5px;
+    padding-top: 5px;
+
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/486/610/323/headphones-women-music-headphones-girl-monochrome-black-background-1920x1080-entertainment-music-hd-art-wallpaper-preview.jpg');
+}
+
+.container h{
+    margin-bottom: 5%;
+    border-radius: 13%;
+    font-weight: bolder;
+    justify-content: center;
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.songlist p h{
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    border-radius: 35%;
+    background-color: beige;
+    color: rgb(11, 122, 220);
+}
+ .songlist img{
+    border-radius: 34px;
+    width: 10%;
+    height: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+
+}
+#image{
+    width: 40px;
+    border-radius: 30px;
+}
+.songlist{
+    margin-left: 2%;
+width:40%;
+    background-color: aliceblue;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+.songlistplay  p{
+    border-radius: 13%;
+margin-left: 75%;
+margin-top: -5.5%;
+
+}
+#me{
+    margin-left: 80%;
+    margin-top: -7%;
+    display: flex;
+    cursor: pointer;
+
+
+}
+.songlist{
+    border-radius: 34px;
+}
+.container{
+    margin-bottom: 2%;
+}
+h1{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+.bottom .icons {
+    display: inline-block;
+    color: aliceblue;
+}
